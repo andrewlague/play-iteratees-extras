@@ -3,7 +3,7 @@ import Keys._
 
 object ApplicationBuild extends Build {
 
-  val playVersion = "2.2.0"
+  val playVersion = "2.2.3"
 
   val main = Project("iteratees-extras", new File(".")).settings(
     libraryDependencies ++= Seq(
